@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="owefont-regular.css">
+  <link rel="stylesheet" href="styles.css" />
+  <title>momentum</title>
+  
+</head>
+<body>
+  <div class="content">
+    <div class="main-block">
+      
+      <div class="time-and-greeting">
+        <time class="time"></time>
+        <h3 class="date-label"></h3>
+        <h1 class="greeting-label">
+          <span class="greeting"></span>
+          <span class="input-el name" contenteditable="true" spellcheck="false"></span>
+        </h1>
+        <h2>What Is Your Focus For Today?</h2>
+        <h2 class="input-el focus" contenteditable="true" spellcheck="false"></h2>
+      </div>
+      <div class="line"></div>
+      <div class="weather">
+        <div class="weather-icon-block">
+          <div class="icon-block">
+            <img src="" alt="" class="weather-icon">
+          </div>
+          <div class="temperature-city-block">
+            <h1 class="temperature">C</h1>
+            <h1 class="input-el city" contenteditable="true" spellcheck="false"></h1>
+            <p class="wrong-city"></p>
+          </div>
+        </div>
+        <div class="weather-description-block">
+          <p class="weather-description">description</p>
+          <p class="wind-speed">wind-speed</p>
+          <p class="humidity">humidity</p>
+        </div>
+      </div> 
+      
+    </div>
+    <div class="bg-buttons">
+      <button class="change-bg change-bg-left"></button>
+      <button class="change-bg change-bg-right"></button>
+    </div>
+    <div class="quote-block">
+      <button class="reverse-btn"></button>
+      <h3 class="quote"></h3>
+      <h3 class="author"></h3>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

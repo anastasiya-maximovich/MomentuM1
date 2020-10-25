@@ -1,0 +1,7 @@
+1. Add DOM Elements('.time', '.greeting','.name', '.focus')
+2. add function showTime();
+3. Set Am/Pm //12hr Format;
+4. output time (time.innerHTML); AddZero => Run (showTime);
+    (0) All images in the folder 'images';
+5. Add getName() and getFocus() with setName() and setFocus();
+ 
