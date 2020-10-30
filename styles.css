@@ -57,6 +57,7 @@ body {
   width: 600px;
   display: flex;
   align-items: center;
+  color: yellow;
 }
 
 .weather-icon-block{
